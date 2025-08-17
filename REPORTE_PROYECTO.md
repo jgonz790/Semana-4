@@ -1,13 +1,13 @@
-# 📊 Reporte del Proyecto - Sistema de Migración de Datos
-
-**Desarrollado por:** [Tu nombre]  
+Academia XIDERAL Reporte del Proyecto - Sistema de Migración de Datos
+XIDERAL
+**Desarrollado por:** Jose osvaldo Gonzalez Guzman  
 **Fecha:** Agosto 2025
 
-## 🎯 ¿Qué hace mi aplicación?
+##  ¿Qué hace mi aplicación?
 
 Mi proyecto es un sistema que migra usuarios de una base de datos MySQL a MongoDB usando Spring Batch. Es como mover datos de una caja a otra, pero de forma automática y segura.
 
-## 🛠️ Tecnologías que usé
+##  Tecnologías que usé
 
 ### **1. Spring Boot**
 - Es el "motor" principal de mi aplicación
@@ -55,7 +55,7 @@ Mi proyecto es un sistema que migra usuarios de una base de datos MySQL a MongoD
 - Inserción de datos de prueba
 - Documentación automática
 
-## 🎓 Lo que aprendí
+##  Lo que aprendí
 
 1. **Integración de tecnologías:** Conectar MySQL, MongoDB y Spring
 2. **Procesamiento por lotes:** Manejar grandes volúmenes de datos
@@ -63,7 +63,7 @@ Mi proyecto es un sistema que migra usuarios de una base de datos MySQL a MongoD
 4. **Docker:** Facilitar el despliegue de bases de datos
 5. **Documentación:** Crear APIs bien documentadas
 
-## 💡 ¿Por qué es importante?
+##  ¿Por qué es importante?
 
 Este proyecto demuestra que puedo:
 - Trabajar con múltiples bases de datos
@@ -71,6 +71,6 @@ Este proyecto demuestra que puedo:
 - Escribir código bien probado
 - Documentar mi trabajo correctamente
 
-## 🚀 Conclusión
+##  Conclusión
 
 Mi aplicación funciona correctamente, tiene una excelente cobertura de tests (94%) y está lista para usarse en un entorno profesional. Aprendí mucho sobre desarrollo backend y buenas prácticas de programación.
