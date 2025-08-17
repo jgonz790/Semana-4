@@ -1,6 +1,6 @@
-# 🎮 Cómo Usar Mi Aplicación - Guía Súper Fácil
+# 🎮 Cómo Usar Mi Aplicacion de Migracion-
 
-## 🏁 Paso 1: Preparar todo
+##  Paso 1: Preparar todo
 
 ### 1.1 Encender Docker
 ```bash
@@ -14,7 +14,7 @@ Si ves las bases de datos (mysql-batch y mongodb), ¡perfecto! Si no, pregúntam
 cd "C:\Users\Admin\Semana-4\batch-migration\batch-migration"
 ```
 
-## 🚀 Paso 2: Encender la aplicación
+##  Paso 2: Encender la aplicación
 
 ```bash
 mvn spring-boot:run
@@ -25,7 +25,7 @@ mvn spring-boot:run
 - Al final dirá: "Started BatchMigrationApplication"
 - ¡Listo! Ya está corriendo
 
-## 🌐 Paso 3: Abrir en el navegador
+##  Paso 3: Abrir en el navegador
 
 ### 3.1 Ver la documentación (Swagger)
 1. Abre tu navegador (Chrome, Firefox, etc.)
@@ -43,7 +43,7 @@ mvn spring-boot:run
 - **Crear usuarios de prueba:** `GET http://localhost:8080/api/test-data/create`
 - **Migrar datos:** `POST http://localhost:8080/api/batch/migrate`
 
-## 🎯 Paso 4: Probar la aplicación
+##  Paso 4: Probar la aplicación
 
 ### 4.1 Crear datos de prueba
 1. En Swagger, busca "test-data-controller"
@@ -76,7 +76,7 @@ mvn clean test
 **Para detener todo:**
 - En la terminal donde corre la app: `Ctrl + C`
 
-## 🆘 Si algo no funciona
+##  Si algo no funciona
 
 ### Error común: "Puerto ocupado"
 ```bash
@@ -92,12 +92,10 @@ docker ps
 docker start mysql-batch mongodb
 ```
 
-## 🎉 ¡Eso es todo!
 
-Mi aplicación es súper fácil de usar:
+Mi aplicación de migracion para semana 4 xideral
 1. **Encender:** `mvn spring-boot:run`
 2. **Abrir:** `http://localhost:8080/swagger-ui.html`
 3. **Probar:** Click en los botones de Swagger
 4. **Ver resultados:** Los datos se migran automáticamente
 
-**¡Disfruta probando mi aplicación!** 🚀
